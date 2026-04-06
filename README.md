@@ -83,12 +83,19 @@ Project Structure
 SpamShieldAI – Streamlit Email Spam Detection System/
 │
 ├── app.py                   # Main Streamlit app
+
 ├── create_csv.py            # CSV creation script
+
 ├── emails.csv               # Dataset
+
 ├── install.bat              # Installation helper
+
 ├── requirements.txt         # Dependencies
+
 ├── setup.py                 # Setup configuration
+
 ├── README.md                # Documentation
+
 └── .gitignore
 ________________________________________
 
