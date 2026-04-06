@@ -7,6 +7,8 @@ The system includes real-time email classification, model training, visual analy
 ________________________________________
 
 Table of Contents
+
+
 •	Features 
 •	How the System Works 
 •	Tech Stack 
@@ -20,6 +22,7 @@ ________________________________________
 
 Features
 
+
 •	Support for multiple machine learning algorithms 
 •	Interactive Streamlit dashboard 
 •	Real-time email spam prediction 
@@ -32,6 +35,7 @@ o	Word clouds for spam and ham emails
 •	Clean, fast, user-friendly UI 
 ________________________________________
 How the System Works
+
 
 Train Model
 Upload your dataset (or use the included one) to train different ML models. 
@@ -58,6 +62,7 @@ ________________________________________
 
  Tech Stack
  
+ 
 Programming & ML
 
 •	Python 
@@ -79,6 +84,7 @@ Frontend (UI)
 ________________________________________
 
 Project Structure
+
 
 SpamShieldAI – Streamlit Email Spam Detection System/
 
@@ -103,6 +109,7 @@ ________________________________________
 
 Installation
 
+
 •	Clone the Repository
 git clone https://github.com/nanditha88/email-spam-detection.git
 cd email-spam-detection
@@ -122,6 +129,7 @@ streamlit run app.py
 ________________________________________
 
 Usage
+
 
 Once the web app opens in the browser:
 
@@ -147,6 +155,7 @@ ________________________________________
 
 Future Enhancements
 
+
 •	Improve dataset with larger, hybrid email corpus 
 •	Add neural networks (LSTM / BERT) 
 •	Add email file (.eml/.txt) upload feature 
@@ -156,6 +165,7 @@ Future Enhancements
 ________________________________________
 
 Author 
+
 
 Developed by: Nanditha CL
 GitHub: @nanditha88
