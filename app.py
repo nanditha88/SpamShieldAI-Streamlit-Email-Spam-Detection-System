@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 # Set page configuration
 st.set_page_config(
-    page_title="Email Spam Detection System",
+    page_title="SpamShieldAI – Streamlit Email Spam Detection System",
     page_icon="📧",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -81,7 +81,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and description
-st.markdown('<h1 class="main-header">📧 Email Spam Detection System</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">📧 SpamShieldAI – Streamlit Email Spam Detection System</h1>', unsafe_allow_html=True)
 st.markdown("""
 This application detects whether an email is **spam** or **ham (legitimate)** using machine learning.
 You can either use our pre-trained model or train a new model with your own data.
@@ -212,7 +212,7 @@ page = st.sidebar.radio("Go to", ["Home", "Train Model", "Test Email", "Model An
 
 # Home page
 if page == "Home":
-    st.markdown('<h2 class="sub-header">Welcome to the Email Spam Detection System</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="sub-header">Welcome to the SpamShieldAI – Streamlit Email Spam Detection System</h2>', unsafe_allow_html=True)
     
     col1, col2 = st.columns([2, 1])
     
@@ -528,7 +528,7 @@ else:
     st.markdown('<h2 class="sub-header">About This Application</h2>', unsafe_allow_html=True)
     
     st.markdown("""
-    ### Email Spam Detection System
+    ### SpamShieldAI – Streamlit Email Spam Detection System
     This application uses machine learning to classify emails as spam or ham (legitimate).
     
     ### Features:
@@ -566,7 +566,7 @@ else:
     st.markdown("---")
     st.markdown("""
     <div class="footer">
-        <p>Email Spam Detection System &copy; 2023 | Built with Streamlit</p>
+        <p>SpamShieldAI – Streamlit Email Spam Detection System &copy; 2023 | Built with Streamlit</p>
         <p>This is a demonstration application for educational purposes.</p>
     </div>
     """, unsafe_allow_html=True)
